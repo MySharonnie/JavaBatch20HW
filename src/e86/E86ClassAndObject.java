@@ -4,7 +4,14 @@ public class E86ClassAndObject {
     public static void main(String[] args) {
         // Create a class named 'Student'
 
+        Student s = new Student();
+
         // Declare a String variable named 'name' and an integer variable named 'roll_no'
+
+        s.name = "John";
+        s.roll_no = 2;
+
+        System.out.println("Name is " + s.name + " and the roll number is " + s.roll_no);
 
         // Create an object of the class 'Student'
 
